@@ -1,7 +1,8 @@
 # Copyright 2023 Open Source Robotics Foundation, Inc.
 # Licensed under the Apache License, Version 2.0
 
-from distutils.command.install_data import install_data
+# from distutils.command.install_data import install_data
+from ..commands.install_data import install_data
 import os
 
 
